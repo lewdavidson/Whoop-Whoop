@@ -1,0 +1,13 @@
+- $ npm init
+- create a .gitignore file with:
+  - .DS_STORE
+  -  node_modules
+  - build
+- $ npm install react@15.5.4 react-dom@15.5.4 --save
+- $ npm install webpack@3.4.0 --save-dev
+- $ npm install webpack@3.4.0 -g
+- create a webpack.config.js file:
+  - refer to this page: {https://www.learnhowtoprogram.com/react/react-fundamentals/building-an-environment}
+- $ npm install babel-core@6.24.1 babel-loader@7.0.0 babel-preset-es2015@6.24.1 babel-preset-react@6.24.1 --save-dev  
+- Create the necessary components in the components folder in SRC
+- 
