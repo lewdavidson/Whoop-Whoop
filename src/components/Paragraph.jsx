@@ -1,7 +1,9 @@
-import React from "react";
+import React from 'react';
 
 function Paragraph() {
-  return ();
+  return (
+    <p>Paragraph</p>
+  );
 }
 
 export default Paragraph;

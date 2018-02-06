@@ -10,4 +10,18 @@
   - refer to this page: {https://www.learnhowtoprogram.com/react/react-fundamentals/building-an-environment}
 - $ npm install babel-core@6.24.1 babel-loader@7.0.0 babel-preset-es2015@6.24.1 babel-preset-react@6.24.1 --save-dev  
 - Create the necessary components in the components folder in SRC
-- 
+- $ npm install prop-types@15.5.10 --save
+ - import PropTypes from "prop-types" wherever you are using Props
+- Create a Webpack development server
+  - $ npm install webpack-dev-server@2.5.0 -g
+  - $ npm install webpack-dev-server@2.5.0 --save-dev
+- Hot Module Refresh
+  - $ npm install react-hot-loader@3.0.0-beta.7 --save-dev
+  - edit webpack.config file and index file per {https://www.learnhowtoprogram.com/react/react-fundamentals/building-an-environment-development-server-hot-module-replacement}
+- $ npm install html-webpack-plugin@2.29.0 --save-dev
+- create template.ejs file
+- add "start":  "webpack-dev-server" to scripts object in JSON package
+- $ npm install eslint -g
+- $ npm install eslint-plugin-react -g
+- $ eslint --init
+- use eslint src/** src/**/** to run linter

@@ -1,7 +1,9 @@
-import React from "react";
+import React from 'react';
 
 function Newsfeed() {
-  return ();
+  return (
+    <h1>Newsfeed, bitches</h1>
+  );
 }
 
 export default Newsfeed;

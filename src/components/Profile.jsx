@@ -1,8 +1,10 @@
-import React from "react";
+import React from 'react';
 
 function Profile() {
-  
-  return ();
+
+  return (
+    <h1>Welcome, to, me, </h1>
+  );
 }
 
-export default Friends;
+export default Profile;
