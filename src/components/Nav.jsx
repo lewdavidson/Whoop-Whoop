@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   const navStyles = {
@@ -19,14 +20,14 @@ function Nav() {
     border: '2px solid black',
     width: '50px',
     height: '90%'
-  }
+  };
   const funStuff = {
     display: 'flex',
     justifyContent: 'space-between',
     color: 'gray'
   };
   const search = {
-    width: "300px",
+    width: '300px',
     border: '2px solid blue',
     outline: 'none',
     borderRadius: '15px',
@@ -40,7 +41,7 @@ function Nav() {
     borderRadius: '15px',
     height: '30px',
     width: '150px'
-  }
+  };
   return (
     <div style={navStyles}>
       <div style={group}>
@@ -51,8 +52,12 @@ function Nav() {
         </ul>
       </div>
       <div style={funStuff}>
-        <button style={search}>Surch</button>
-        <button style={Tweetin}>Whoop Whoop</button>
+        <button style={search}>
+          <Link to='/'>Home</Link>
+        </button>
+        <button  style={Tweetin}>
+          <Link to='/newstatus'>Whoop Whoop!</Link>
+        </button>
       </div>
     </div>
   );
